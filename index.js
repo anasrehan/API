@@ -2,7 +2,7 @@
     const cors = require('cors');
     const bodyparser = require('body-parser');
     const app = express();
-    const Port = process.env.PORT;
+    const Port = process.env.PORT || 3306;
     const Route = require("./routes.js");
     const multer = require("multer");
 
