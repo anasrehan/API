@@ -25,6 +25,6 @@
     app.use(bodyparser.json());
     app.use("/api",Route);
 
-    app.listen(Port,'192.168.1.40', () => {
+    app.listen(Port,'0.0.0.0', () => {
         console.log(`Example app listening on port ${Port}`);
     });
